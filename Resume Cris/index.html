@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Christian Michael Habinzaran Siahaan</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="download-container">
+        <button onclick="window.print()" class="download-btn"><i class="fas fa-file-pdf"></i> Download sebagai PDF</button>
+    </div>
+
+    <div class="cv-container">
+        <aside class="sidebar">
+                <div class="profile-pic-container"><img src="c:\Users\MyBook Hype AMD\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C79081172114F9274155DE4676064D56\WhatsApp Image 2025-10-15 at 21.57.12_7cea0700.jpg" alt="Foto Profil" class="profile-pic"></div>
+            <section id="kontak" class="fade-in-section">
+                <h3>Kontak</h3>
+                <div class="kontak">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:email.@example.com">cristiansiahan@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:083821078418">083821078418</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jalan Perwira III, Medan Sunggal, Provinsi Sumatera Utara</p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/usarica4036" target="_blank" rel="noopener noreferrer">https://github.com/usarica4036</a></p>
+                    <p><i class="fas fa-graduation-cap"></i> <a href="#" target="_blank" rel="noopener noreferrer">Profil Akademik Saya</a></p>
+                </div>
+            </section>
+            <section id="keterampilan" class="fade-in-section">
+                <h3>Keterampilan</h3>
+                <h4>Pemrograman & Database</h4><ul class="keterampilan-list"><li>JavaScript</li><li>HTML & CSS</li><li>Node.js</li><li>Python</li><li>MySQL</li></ul>
+                <h4>Alat & Lainnya</h4><ul class="keterampilan-list"><li>Git</li><li>Docker</li><li>CI/CD</li><li>Linux</li></ul>
+            </section>
+            <section id="bahasa" class="fade-in-section">
+                <h3>Bahasa</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Bahasa Indonesia</strong></li>
+                    <li><strong>Bahasa Inggris</strong></li>
+                </ul>
+            </section>
+            <section id="verifikasi" class="fade-in-section qr-code-container">
+                <h3>Verifikasi Online</h3>
+                <div id="qrcode"></div>
+                <p>Pindai untuk melihat versi CV online yang interaktif.</p>
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Christian Michael Habinzaran Siahaan, S.Kom.</h1>
+                <p class="jabatan">Software Engineer | DevOps Enthusiast</p>
+            </header>
+            <section id="tentang" class="fade-in-section">
+                <h2><i class="fas fa-user-tie"></i> Profil Profesional</h2>
+                <p>Pengembang perangkat lunak yang berfokus pada pengembangan aplikasi web dan otomatisasi infrastruktur. Berpengalaman bekerja dalam tim kecil maupun proyek freelance, terbiasa dengan praktik terbaik pengembangan dan manajemen versi.</p>
+            </section>
+            <section id="pengalaman" class="timeline-section fade-in-section">
+                <h2><i class="fas fa-briefcase"></i> Pengalaman Kerja</h2>
+                <div class="item"><h3>Frontend Developer (Freelance)</h3><p class="info">Freelance Project · Remote | Jan 2024 – Sekarang</p><ul><li>Membangun antarmuka responsif untuk aplikasi web klien menggunakan HTML, CSS, dan JavaScript.</li><li>Bekerja sama dengan desainer untuk mengimplementasikan mockup ke halaman web interaktif.</li></ul></div>
+                <div class="item"><h3>Junior Software Engineer</h3><p class="info">PT.MEDIA KARYA ENGINEERING · Kota Medan | Jun 2025 – Des 2028</p><ul><li>Mengembangkan fitur backend sederhana menggunakan Node.js dan Express.</li><li>Membuat skrip otomatisasi deployment dan pengujian unit dasar.</li></ul></div>
+                <div class="item"><h3>Intern Web Developer</h3><p class="info">Startup Digital Nusantara · Kota Medan | Jan 2024 – Mei 2027</p><ul><li>Mendukung tim dalam pembuatan halaman promosi dan integrasi formulir kontak.</li></ul></div>
+            </section>
+            <section id="pendidikan" class="timeline-section fade-in-section">
+                <h2><i class="fas fa-graduation-cap"></i> Pendidikan</h2>
+                <div class="item"><h3>SMK Free Methodist 2</h3><p class="info">SMK Free Methodist 2 · Lulus 2022</p></div>
+                <div class="item"><h3>Sarjana Komputer</h3><p class="info">Universitas Satya Terra Bhinneka · Lulus 2027</p></div>
+            </section>
+            
+            <section id="publikasi" class="fade-in-section">
+                <h2><i class="fas fa-book-open"></i> Publikasi</h2>
+                <ul class="list-unstyled publikasi-list">
+                    <li><strong><a href="#" target="_blank" rel="noopener noreferrer">Implementing a Simple REST API for Learning</a></strong> (2023). <em>Example Journal</em>.</li>
+                    <li><strong><a href="#" target="_blank" rel="noopener noreferrer">A Study on Frontend Performance Optimization</a></strong> (2024). <em>Web Dev Journal</em>.</li>
+                </ul>
+            </section>
+            <section id="pencapaian" class="fade-in-section">
+                <h2><i class="fas fa-star"></i> Aktivitas & Pencapaian</h2>
+                <ul class="list-unstyled achievements-list">
+                    <li><strong>Pemateri Webinar</strong> "Dasar-dasar Pengembangan Web" oleh Komunitas Contoh (Maret 2025)</li>
+                    <li><strong>Kontributor Open Source</strong> Berkontribusi pada proyek contoh untuk dokumentasi dan perbaikan bug (2024)</li>
+                    <li><strong>Pemenang Hackathon</strong> Tim pemenang pada Hackathon Lokal - kategori prototipe terbaik (2025)</li>
+                    <li><strong>Relawan Pengajar</strong> Mengajar workshop HTML/CSS untuk pemula di acara komunitas (2026)</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <div id="image-preview-modal" class="modal-overlay">
+        <span class="modal-close-btn">&times;</span>
+        <img class="modal-content-image" id="modal-image">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
